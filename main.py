@@ -243,11 +243,11 @@ def runallflow(indexnumber, flowslist):
     try:
         # Log in
         input_element = driver.find_element(By.ID, "email")
-        input_element.send_keys('andreisharfenberg@swap-europe.com')
+        input_element.send_keys('**********************')
         input_element.send_keys(Keys.ENTER)
         time.sleep(1)
         input_element = driver.find_element(By.ID, "password")
-        input_element.send_keys('aB12345!')
+        input_element.send_keys('******************!')
         input_element.send_keys(Keys.ENTER)
         time.sleep(5)
         # Close update popup
